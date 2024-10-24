@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header nav {
+  background-color: #dda15e;
+  padding: 3vh 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav h1 {
+  font-size: 36px;
+}
+.nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav a, header nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 0 1rem;
+}
+
+main section {
+  background: linear-gradient(98deg, #bfd2e5 0%, #fff 100%);
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: space-around;
+  padding: 0 1rem;
+}
+
+main section .info {
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+main section .info h1,
+main section .info h2 {
+  margin-bottom: 26px;
+}
+
+main section .info h1 {
+  font-size: 40px;
+}
+
+main section .info h2 {
+  font-size: 28px;
+  color: rgb(112, 22, 197);
+}
+
+main section .info p {
+  color: rgb(103, 123, 144);
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+main section .info button {
+  font-size: 18px;
+  padding: 8px;
+  border: none;
+  background-color: #283618;
+  color: white;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+main section .info button:hover {
+  background-color: #606c38;
+}
+
+main section .personalimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .personalimg img {
+  border-radius: 50%;
+}

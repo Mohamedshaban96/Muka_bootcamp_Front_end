@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
-    url(../media/pexels-photo-3030684.webp);
+    url(pexels-photo-3030684.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
